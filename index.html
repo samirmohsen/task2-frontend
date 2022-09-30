@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE"
+      crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body style="height: 6240px;">
+
+    <nav class="navbar navbar-expand-lg bg-light stucky-top fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo2.png" alt="">
+        </a>
+        <button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-fill w-75">
+            <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+            <a class="nav-link" href="#">الأصناف</a>
+            <a class="nav-link" href="#">الحجز</a>
+            <a class="nav-link" href="#">صور</a>
+            <a class="nav-link" href="#">عن المطعم</a>
+            <a class="nav-link" href="#">المدونة</a>
+            <a class="nav-link" href="#">اتصل بنا</a>
+            <div class="menuicons nav-fill">
+              <div class="icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+              <div class="icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+              <div class="icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+              <div class="icon"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </nav>
+
+     <!-- photo ///////////////////////////////////////////////////// -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="/images/master-slides-03.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>مرحبا بك</h5>
+            <p>في مطعم باتو</p>
+            <button type="button" class="btn rounded-pill main-btn">قائمة الطلبات</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/images/master-slides-02.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>مرحبا بك</h5>
+            <p>في مطعم باتو</p>
+            <button type="button" class="btn rounded-pill main-btn">قائمة الطلبات</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/master-slides-01.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>مرحبا بك</h5>
+            <p>في مطعم باتو</p>
+            <button type="button" class="btn rounded-pill main-btn">قائمة الطلبات</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+     <!--  section 1  /////////////////////////////////////////////// -->
+              
+    <div class="container" style="padding-top: 100px; padding-bottom: 105px;">
+      <div class="row">
+        <div class="col-md-6 text-center p-5">
+          <h2>مطعم ايطالي</h2>
+          <h1>اهلا وسهلا</h1>
+          <p>من أروع المشاعر التي أشعر بها وأنا أحلس في مطعمي المفضل أنني أستمتع بطريقة تناول طعامي، كما أنني أشعر بالامتنان الكبير لكلّ من أعدّ الوجبات وقدمها لي، ولا يقتصر حبّي لهذا المطعم على نوعية الطعام التي يقدمها فقط، بل لأنه مطعمٌ يمتاز بالنظافة الكبيرة،
+              وطريقة الإعداد والتقديم المنظمة للوجبات، وهذا يُشعرني بالاطمئنان أكثر، بالإضافة إلى توفر المرافق المختلفة والضرورية</p>
+              <a href="about.html" class="txt4 text-decoration-none">
+              قصتنا
+              <i class="fa fa-long-arrow-left m-l-10" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="/images/our-story-01.jpg" style="border-radius: 15px; width: 390px;" alt="">
+        </div>
+      </div>
+    </div>
+
+     <!-- section 2  //////////////////////////////////////////////// -->
+
+    <section class="section-intro">
+      <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(&quot;images/bg-intro-01.jpg&quot;); background-position: center center;">
+        <span class="tit2 p-l-15 p-r-15">
+          اكتشف
+        </span>
+
+        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+          مكان مطعم باتو
+        </h3>
+      </div>
+    </section>
+
+     <!-- section 3 ///////////////////////////////////////////////// -->
+
+    <div class="menu-3-cards ">
+      <div class="card" style="width: 18rem;">
+        <img src="/images/intro-03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>نبيذ</h3>
+          <p class="card-text">هو مشروب من أنواع النبيذ المصنع من أصناف العنب الأسود.</p>
+          <a href="about.html" class="txt4 text-decoration-none">
+            تعرف علي المزيد
+            <i class="fa fa-long-arrow-left m-l-10" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="images/intro-02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>طعام لذيذ</h3>
+          <p class="card-text">استمتع بوجبة شهية وستصبح لديك قدرة للتفكير والعيش والنوم.</p>
+          <a href="about.html" class="txt4 text-decoration-none">
+            تعرف علي المزيد
+            <i class="fa fa-long-arrow-left m-l-10" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="/images/intro-01.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3>مطعم رومانسي</h3>
+          <p class="card-text">البعض منا يريد قضاء العيد وسط أجواء رومانسية وتناول وجبته المفضلة.</p>
+          <a href="about.html" class="txt4 text-decoration-none">
+            تعرف علي المزيد
+            <i class="fa fa-long-arrow-left m-l-10" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+     <!--images ///////////////////////////////////////////////////// -->
+
+
+    <section id="ourMenu">
+      <div class="image-title">
+        <h3>اكتشف</h3>
+        <h1>القائمة لدينا</h1>
+      </div>
+
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4 col-sm-4">
+                  <div class="menuItem" style="background-image: url('/images/our-menu-01.jpg'); height: 33vw;">
+                      <div class="menuItemName">
+                          الغذاء
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                  <div class="menuItem" style="background-image: url('/images/our-menu-02.jpg'); height: 33vw;">
+                      <div class="menuItemName">
+                          الغذاء
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="row" style="margin: 0 auto 10px auto;">
+                      <div class="col-md-12" style="padding: 0 !important;">
+                          <div class="menuItem" style="background-image: url('/images/our-menu-03.jpg'); height: 16vw;">
+                              <div class="menuItemName">
+                                  الغذاء
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row" style="margin: 0 auto;">
+                      <div class="col-md-12" style="padding: 0 !important;">
+                          <div class="menuItem" style="background-image: url('/images/our-menu-04.jpg'); height: 16vw;">
+                              <div class="menuItemName">
+                                  الغذاء
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-8">
+                  <div class="menuItem" style="background-image: url('/images/our-menu-05.jpg'); height: 20vw;">
+                      <div class="menuItemName">
+                          الغذاء
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="menuItem" style="background-image: url('/images/our-menu-06.jpg'); height: 20vw;">
+                      <div class="menuItemName">
+                          الغذاء
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+     <!-- cards ///////////////////////////////////////////////////// -->
+
+    <div class="cards">
+      <div class="card-w">
+        <div class="card-3">
+          <img src="/images/avatar-04.jpg" class="card-img-top" alt="...">
+        </div>
+        
+        <div class="card-para">
+          <h5 class="card-title">طاه</h5>
+          <p class="card-text">أن الطهي بقدر ما يعتمد
+            على التجربة والخبرات فهو
+            أيضا يحتاج إلى الموهبة أو "النفس" كما نعتاد تسميته في مصر، وهو شيء لا يمتلكه الجميع.</p>
+          <p class="card-text"><small class="text-muted">أخر تحديث منذ ثلاث دقائق</small></p>
+        </div>
+        </div>
+        <div class="card-w">
+        <div class="card-3">
+          <img src="/images/avatar-01.jpg" class="card-img-top" alt="...">
+        </div>
+        <div class="card-para">
+          <h5 class="card-title">طاه</h5>
+          <p class="card-text">أن الطهي بقدر ما يعتمد
+            على التجربة والخبرات فهو
+            أيضا يحتاج إلى الموهبة أو "النفس" كما نعتاد تسميته في مصر، وهو شيء لا يمتلكه الجميع.</p>
+          <p class="card-text"><small class="text-muted">أخر تحديث منذ ثلاث دقائق</small></p>
+        </div>
+        </div>
+          
+        <div class="card-w">
+        <div class="card-3">
+          <img src="/images/avatar-05.jpg" class="card-img-top" alt="...">
+          </div>
+          <div class="card-para">
+            <h5 class="card-title">طاه</h5>
+            <p class="card-text">أن الطهي بقدر ما يعتمد
+              على التجربة والخبرات فهو
+              أيضا يحتاج إلى الموهبة أو "النفس" كما نعتاد تسميته في مصر، وهو شيء لا يمتلكه الجميع.</p>
+            <p class="card-text"><small class="text-muted">أخر تحديث منذ ثلاث دقائق</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- vedio ///////////////////////////////////////////////////// -->
+          
+    <section class="section-video parallax100" style="background-image: url(&quot;images/bg-cover-video-02.jpg&quot;); background-position: center -20.4542px;">
+      <div class="content-video t-center p-t-225 p-b-250">
+        <span class="tit2 p-l-15 p-r-15">
+          اكتشف
+        </span>
+  
+        <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
+          الفيديو الخاص بنا
+        </h3>
+  
+        <div class="btn-play ab-center size16 hov-pointer m-l-r-auto m-t-43 m-b-33" data-toggle="modal" data-target="#modal-video-01">
+          <div class="flex-c-m sizefull bo-cir bgwhite color1 hov1 trans-0-4">
+            <i class="fa fa-play fs-18 m-l-2" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- section 4 ///////////////////////////////////////////////// -->
+    
+    <section class="section-booking bg1-pattern p-t-100 p-b-110" style="background-image: url(/images/pattern2.png) ;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 p-b-30">
+            <div class="t-center">
+              <span class="tit2 t-center">
+                طاولة
+              </span>
+  
+              <h3 class="tit3 t-center m-b-35 m-t-2" style="font-size: calc(2.3rem + .6vw);">
+                كتب الحجز
+              </h3>
+            </div>
+  
+            <form class="wrap-form-booking">
+              <div class="row">
+                <div class="col-md-6">
+                  <!-- Date -->
+                  <span class="txt9">
+                    التاريخ
+                  </span>
+  
+                  <div class="wrap-inputdate pos-relative txt10 size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <input class="my-calendar bo-rad-10 sizefull txt10 p-l-20" type="text" name="date">
+                    <i class="btn-calendar fa fa-calendar ab-r-m hov-pointer m-r-18" aria-hidden="true"></i>
+                  </div>
+  
+                  <!-- Time -->
+                  <span class="txt9">
+                    الوقت
+                  </span>
+  
+                  <div class="wrap-inputtime size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <!-- Select2 -->
+                    <select class="selection-1 select2-hidden-accessible" name="time" tabindex="-1" aria-hidden="true">
+                      <option>9:00</option>
+                      <option>9:30</option>
+                      <option>10:00</option>
+                      <option>10:30</option>
+                      <option>11:00</option>
+                      <option>11:30</option>
+                      <option>12:00</option>
+                      <option>12:30</option>
+                      <option>13:00</option>
+                      <option>13:30</option>
+                      <option>14:00</option>
+                      <option>14:30</option>
+                      <option>15:00</option>
+                      <option>15:30</option>
+                      <option>16:00</option>
+                      <option>16:30</option>
+                      <option>17:00</option>
+                      <option>17:30</option>
+                      <option>18:00</option>
+                    </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 64.4px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-time-1w-container"><span class="select2-selection__rendered" id="select2-time-1w-container" title="9:00">9:00</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                  </div>
+  
+                  <!-- People -->
+                  <span class="txt9">
+                    الأشخاص
+                  </span>
+  
+                  <div class="wrap-inputpeople size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <!-- Select2 -->
+                    <select class="selection-1 select2-hidden-accessible" name="people" tabindex="-1" aria-hidden="true">
+                      <option>1 فرد</option>
+                      <option>2 فرد</option>
+                      <option>3 فرد</option>
+                      <option>4 فرد</option>
+                      <option>5 فرد</option>
+                      <option>6 فرد</option>
+                      <option>7 فرد</option>
+                      <option>8 فرد</option>
+                      <option>9 فرد</option>
+                      <option>10 فرد</option>
+                      <option>11 فرد</option>
+                      <option>12 فرد</option>
+                    </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 94px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-people-d0-container"><span class="select2-selection__rendered" id="select2-people-d0-container" title="1 person"> 1 فرد </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+                  </div>
+                </div>
+  
+                <div class="col-md-6">
+                  <!-- Name -->
+                  <span class="txt9">
+                    الاسم
+                  </span>
+  
+                  <div class="wrap-inputname size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="name" placeholder="الاسم">
+                  </div>
+  
+                  <!-- Phone -->
+                  <span class="txt9">
+                      الهاتف
+                  </span>
+  
+                  <div class="wrap-inputphone size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="phone" placeholder="رقم الهاتف">
+                  </div>
+  
+                  <!-- Email -->
+                  <span class="txt9">
+                    الايميل
+                  </span>
+  
+                  <div class="wrap-inputemail size12 bo2 bo-rad-10 m-t-3 m-b-23">
+                    <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email" placeholder="الايميل">
+                  </div>
+                </div>
+              </div>
+  
+              <div class="wrap-btn-booking flex-c-m m-t-6">
+                <!-- Button3 -->
+                <button type="submit" class="btn3 btn btn-dark btn btn-outline-danger flex-c-m size13 txt11 trans-0-4" style="color: white;  border: 0;" >
+                  جدول الكتب
+                </button>
+              </div>
+            </form>
+          </div>
+  
+          <div class="col-lg-6 p-b-30 p-t-18">
+            <div class="wrap-pic-booking size2 bo-rad-10 hov-img-zoom m-l-r-auto">
+              <img src="images/booking-01.jpg" alt="IMG-OUR">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br>
+
+     <!-- mail ////////////////////////////////////////////////////// -->
+
+    <div class="section-signup bg1-pattern p-t-85 p-b-85" style="background-image: url(/images/pattern1.png); padding-top: 80px; padding-bottom: 100px;">
+      <form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
+        <span class="txt5 m-10">
+          العروض الخاصة للاشراك
+        </span>
+  
+        <div class="wrap-input-signup size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
+          <input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email-address" placeholder="عنوان البريد الالكتروني">
+          <i class="fa fa-envelope ab-r-m m-r-18" aria-hidden="true"></i>
+        </div>
+  
+        <!-- Button3 -->
+        <button type="submit" class="btn3 btn btn-dark btn btn-outline-danger flex-c-m size18 txt11 trans-0-4 m-10">
+          اشتراك
+        </button>
+      </form>
+    </div>
+
+     <!-- end //////////////////////////////////////////////////////// -->
+
+    <footer class="bg1 b-0">
+      <div class="end-end container p-t-40 p-b-70">
+        <div class="row">
+          <div class="col-sm-6 col-md-4 p-t-50">
+            <!-- - -->
+            <h4 class="txt13 m-b-33">
+              اتصل بنا
+            </h4>
+  
+            <ul class="m-b-70" style="color: darkgray;">
+              <li class="txt14 m-b-14">
+                <i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                8th floor, 379 Hudson St, New York, NY 10018
+              </li>
+  
+              <li class="txt14 m-b-14">
+                <i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
+                (+1) 96 716 6879
+              </li>
+  
+              <li class="txt14 m-b-14">
+                <i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
+                contact@site.com
+              </li>
+            </ul>
+  
+            <!-- - -->
+            <h4 class="txt13 m-b-32">
+              مواعيد العمل
+            </h4>
+  
+            <ul style="color: darkgray;">
+              <li class="txt14">
+                09:30 AM – 11:00 PM
+              </li>
+  
+              <li class="txt14">
+                Every Day
+              </li>
+            </ul>
+          </div>
+  
+          <div class="col-sm-6 col-md-4 p-t-50">
+            <!-- - -->
+            <h4 class="txt13 m-b-33">
+              احدث تويتر
+            </h4>
+  
+            <div class="m-b-25">
+              <span class="fs-13 color2 m-r-5">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+              <a href="#" class="txt15">
+                @colorlib
+              </a>
+  
+              <p class="txt14 m-b-18" style="color: darkgray;">
+                Activello is a good option. It has a slider built into that displays the featured image in the slider.
+                <a href="#" class="txt15">
+                  https://buff.ly/2zaSfAQ
+                </a>
+              </p>
+  
+              <span class="txt16">
+                21 Dec 2017
+              </span>
+            </div>
+  
+            <div>
+              <span class="fs-13 color2 m-r-5">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+              <a href="#" class="txt15">
+                @colorlib
+              </a>
+  
+              <p class="txt14 m-b-18" style="color: darkgray;">
+                Activello is a good option. It has a slider built into that displays
+                <a href="#" class="txt15">
+                  https://buff.ly/2zaSfAQ
+                </a>
+              </p>
+  
+              <span class="txt16">
+                21 Dec 2017
+              </span>
+            </div>
+          </div>
+  
+          <div class="col-sm-6 col-md-4 p-t-50">
+            <!-- - -->
+            <h4 class="txt13 m-b-38">
+              الصور 
+            </h4>
+  
+            <!-- Gallery footer -->
+            <div class="wrap-gallery-footer flex-w">
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-04.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-04.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-08.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-08.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
+              </a>
+  
+              <a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-12.jpg" data-lightbox="gallery-footer">
+                <img src="images/photo-gallery-thumb-12.jpg" alt="GALLERY">
+              </a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="end-footer bg2">
+        <div class="container" style="    background-color: black;
+        padding: 20px;">
+          <div class="flex-sb-m flex-w p-t-22 p-b-22">
+            <div class="p-t-5 p-b-5">
+              <a href="#" class="fs-15 c-white"><i class="fa-solid fa-truck-monster"></i></i></a>
+              <a href="#" class="fs-15 c-white"><i class="fa-brands fa-facebook-f"></i></i></a>
+              <a href="#" class="fs-15 c-white"><i class="fa-brands fa-twitter"></i></i></a>
+            </div>
+
+
+            <div id="myBtn" class="btn-back-to-top bg0-hov" style="display: flex;">
+              <span class="symbol-btn-back-to-top">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+              </span>
+            </div>
+  
+            <div class="txt17 p-r-20 p-t-5 p-b-5">
+              Copyright © 2018 All rights reserved  |  This template is made with <i class="fa fa-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+     <!-- //// -->
+
+    <script>
+      $("#myBtn").click(function(){
+      $("html, body").animate({scrollTop: "0"}, 3000);
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>

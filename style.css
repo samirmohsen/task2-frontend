@@ -1,0 +1,342 @@
+.menuicons {
+    color: black;
+    display: flex;
+    width: 0px;
+    position: fixed;
+    left: 150px;
+    }
+.menuicons .icon {
+    padding-right: 15px;
+    }
+.carousel-dark .carousel-caption {
+    color: #000;
+    padding-bottom: 130px;
+    }
+.carousel-indicators{
+    padding-bottom: 20px;
+    }
+.carousel-caption h5 {
+    font-size: 40px;
+    color: azure;
+    }
+.carousel-caption p {
+    padding-bottom: 25px;
+    font-size: 30px;
+    color: rgb(219, 215, 163);
+    }      
+.carousel-dark .carousel-indicators [data-bs-target] {
+        background-color: #fff;
+    } 
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: none;
+    }
+.carousel-caption button {
+    color: crimson;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+    }
+.carousel-caption button:hover {
+    color: #fff;
+    background-color: crimson;
+    }
+.menu-3-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    }
+.card {
+    border-width: inherit;
+    }
+img, svg {
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+}
+.item-ourmenu 
+.txt5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    width: max-content;
+    border-radius: 0%;
+}
+.section-ourmenu {
+    background-image: url(/images/pattern2.png);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.t-center {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tit2 {
+    color: red;
+    font-style: italic;
+    font-size: 30px;
+}
+.title-section-ourmenu
+h3, .tit5 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: revert;
+}
+.size7 {
+    width: 143px;
+    height: 60px;
+}
+.header-intro {
+    background-image: url(images/bg-intro-01.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 158px;
+    padding-top: 135px;
+}
+.tit2 {
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+}
+.header-intro, .tit4 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    word-spacing: 6px;
+}
+.cards {
+    display: flex;
+    margin-bottom: 55px;
+    margin-top: 55px;   
+}
+.card-para {
+    
+    text-align: center;
+}
+.card-w {
+    margin: 20px;
+    text-align: -moz-center;
+}
+.card-3 {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 118px;
+    height: 118px;
+    border: 4px solid #ec1d25;
+}
+.bo4 {
+    border: 4px solid #ec1d25;
+}
+.size14 {
+    width: 118px;
+    height: 118px;
+}
+.section-video {
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 225px;
+    padding-bottom: 250px;
+    background-color: rgba(0,0,0,0.5);
+}
+.flex-c-m  {
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+.section-video,
+.btn-play,
+.flex-c-m {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 30px;
+}
+.fa-play {
+    color: rgb(0, 0, 0);
+	background-color: white;
+	width: 55px;
+	height: 55px;
+    display: flex;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 50%;
+}
+.ab-center  {
+    text-align: -webkit-center;
+}
+.fa-play:before {
+    content: "\f04b";
+}
+.section-booking {
+    padding-bottom: 100px;
+    padding-top: 110px;
+}
+.wrap-pic-booking {
+    max-width: 390px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.txt5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.bo-rad-10 {
+    border-radius: 10px;
+    font-size: 20px;
+}
+.m-10 {
+    margin: 10px;
+}
+.trans-0-4 {
+    color: white;
+    border: 0;
+}
+.bg1 {
+    background-color: #222222;
+}
+.flex-w {
+    display: flex; 
+    flex-wrap: wrap; 
+    position: sticky;
+    right: 5%;  
+}
+.item-gallery-footer {
+    display: block;
+    position: relative;
+    width: calc((100% - 50px) / 4 );
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.txt13 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+.m-b-33 {
+    margin-bottom: 33px;
+}
+.end-end {
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.txt15 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ec1d25;
+    line-height: 1.7;
+    text-decoration: none;
+}
+.txt16 {
+    font-size: 12px;
+    color: #555555;
+}
+.txt17 {
+    font-family: Noto+Sans;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #999999;
+    width: 100%;
+}
+
+a {
+    color: #d61c22;
+    text-decoration: none;
+}
+a:hover {
+    color: teal;
+}
+#myBtn {
+	position: absolute;
+	right: -7%;
+	color: white;
+    background-color: #ce0000;
+    width: 30px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#myBtn:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/* images */
+
+#ourMenu {
+    background-image: url(/images/pattern2.png);
+}
+.container {
+    padding: 20px 0 80px;
+}
+.image-title{
+    text-align: center;
+    padding-top: 30px;
+}
+.menuItem {
+    background-size: 120%;
+    border-radius: 9px;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 600ms;
+}
+.menuItem:hover {
+    background-size: 110%;
+    transition: all 600ms;
+}
+.row {
+    margin: 10px auto;
+}
+.menuItemName {
+    font-size: 24px;
+    color: #000;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 50%;
+    padding: 8px 0;
+    border-radius: 9px;
+    text-align: center;
+    transition: all 500ms;
+}
+.menuItemName:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 0, 0, 0.8);
+    transition: all 500ms;
+}
+@media only screen and (max-width: 768px) {
+    #ourMenu .container>.row>div {
+        margin-bottom: 10px;
+    }
+    .menuItem {
+        height: 50vh !important;
+    }
+}
